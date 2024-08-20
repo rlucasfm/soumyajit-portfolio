@@ -16,40 +16,33 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              DEIXA EU ME <span className="purple"> APRESENTAR </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Sempre fui apaixonado por criar soluções para os problemas ao meu redor.
+              De preferência da forma mais diferente que eu puder 😉
               <br />
-              <br />I am fluent in classics like
+              A melhor forma que encontrei para isso foi desenvolvendo tecnologia!
+              <br />
+              <br />Sou fluente em linguagens populares como
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, Typescript e C++. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Descobri um amor pelo tema Inteligência Artificial ainda com 14 anos de idade, desde então foi minha área de pesquisa favorita!
+              <br />
+              <br />
+              Há quase 10 anos pesquisando e desenvolvendo soluções com{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Machine Learning e Fuzzy Logic </b> aplicando a
+                criação de produtos, aplicativos, serviços e{" "}
                 <b className="purple">
-                  Blockchain.
+                  Inovação.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,14 +53,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>ENCONTRE-ME EM</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Sinta-se a vontade para se <span className="purple">conectar </span>comigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/rlucasfm"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +68,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +77,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/richard-lucas-furtado-de-mendonca/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +90,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/richard.lucasfm/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

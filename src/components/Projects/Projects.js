@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import prev from "../../Assets/Projects/prev.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import briefeen from "../../Assets/Projects/briefeen.png";
+import mergemarketing from "../../Assets/Projects/mergemarketing.png";
+import emergenciaflix from "../../Assets/Projects/emergenciaflix.png";
+import orfeu from "../../Assets/Projects/orfeu.png";
 
 function Projects() {
   return (
@@ -15,63 +15,58 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Meus <strong className="purple">Trabalhos </strong>recentes
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Aqui estão alguns projetos em que trabalhei recentemente (Alguns são privados, então vai só uma prévia 😉).
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={mergemarketing}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="MergeMarketing"
+              description="Uma suite IA completa para auxiliar agências de marketing em todo seu pipeline de acompanhamento. Envolve sistemas multi-agentes baseados em LLM para criação de Estratégias de Marketing, geração de copy para post, roteiro para vídeos entre outras funcionalidades."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={orfeu}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Orfeu"
+              description="Um orquestrador de jornadas de inovação. Meu filhote personificado em Startup SaaS. Esta aplicação envolve uma coleção de features super interessantes para prover um ambiente para gerir jornadas de inovação de forma direta e descomplicada"
+              demoLink="https://orfeu.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={briefeen}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Briefeen"
+              description="Plataforma online para gestão de projetos de Arquitetura/engenharia/etc... Nessa plataforma, você pode gerir seu projeto desde o briefing até a entrega."
+              demoLink="https://briefeen.com.br/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={prev}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Previsão do Mercado Financeiro - Fuzzy"
+              description="Esta pesquisa valida a aplicação de lógica difusa (Fuzzy) para a previsão do mercado financeiro. "
+              ghLink="https://github.com/rlucasfm/previsao-financ"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={emergenciaflix}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="EmergenciaFlix"
+              description="Plataforma Open-source para área de membros de cursos para profissionais da saúde, especializando em cursos de emergência como APH, injétaveis, etc."
+              ghLink="https://github.com/rlucasfm/emergenciaflix"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,10 +75,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Reconheciento facial - Porteiro IA"
+              description="Aplicação de um sistema de reconhecimento facial usando visão computacional para autorizar o acesso de pessoas à ambientes corporativos privados."
+              ghLink="https://github.com/rlucasfm/facerec"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
