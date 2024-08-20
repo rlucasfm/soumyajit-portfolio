@@ -95,7 +95,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/fwk-global/chatgpt-a-próxima-revolução-tecnológica-já-começou-a78228833be0"
+                href="https://medium.com/@richardlucasfm"
                 target="_blank"
                 rel="noreferrer"
               >
